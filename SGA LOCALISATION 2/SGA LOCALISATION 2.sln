@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36327.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGA LOCALISATION 2", "SGA LOCALISATION 2.csproj", "{2E54F23C-D335-4BF3-A818-8F9312E94F7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E54F23C-D335-4BF3-A818-8F9312E94F7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E54F23C-D335-4BF3-A818-8F9312E94F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E54F23C-D335-4BF3-A818-8F9312E94F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E54F23C-D335-4BF3-A818-8F9312E94F7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68E4DCE5-AFA1-4F34-998F-76B58359646D}
+	EndGlobalSection
+EndGlobal

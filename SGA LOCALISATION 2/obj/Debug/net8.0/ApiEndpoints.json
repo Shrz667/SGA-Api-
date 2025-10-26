@@ -1,0 +1,54 @@
+[
+  {
+    "ContainingType": "SGA_LOCALISATION_2.Controllers.AgenceslistsController",
+    "Method": "GetAgence",
+    "RelativePath": "Agenceslists/GetClosestAgence",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Latt",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "Long",
+        "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SecuDeApi.Controllers.AuthentificationController",
+    "Method": "Login",
+    "RelativePath": "api/Authentification/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SecuDeApi.Controllers.AuthorizeController",
+    "Method": "GetSecret",
+    "RelativePath": "api/Authorize",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
