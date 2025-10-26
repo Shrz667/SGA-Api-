@@ -1,0 +1,93 @@
+
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coordonnées GPS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to top ,#AF3E3E,#CD5656,#DA6C6C,#EAEBD0);
+      height: 100vh;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .card {
+      background: linear-gradient(to bottom ,#37353E 50%,#C5172E 50%);
+      padding: 60px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(122, 104, 104, 0.432);
+      text-align: center;
+      width: 320px;
+    }
+
+    label {
+      display: block;
+      margin: 10px 0 5px;
+      font-weight: bold;
+      color: #fdfdfd;
+      text-align: center;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      background: #e0e0e0;
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background: #585f726e;
+    }
+    #result {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #222;
+      padding: 10px;
+      background: #f1f5ff;
+      border-radius: 8px;
+      border: 1px solid #d0d9ff;
+    }
+  </style>
+</head>
+<body>
+  <body>
+
+  <div class="card" id="card">
+    <h2 style="color: white;">Coordonnées GPS</h2>
+    <div class="form-part">
+      <label for="lat">Latitude :</label>
+      <input type="number" [(ngModel)]="latitude" placeholder="Latitude">
+
+      <label for="lng">Longitude :</label>
+     <input type="number" [(ngModel)]="longitude" placeholder="Longitude">
+       <button (click)="submitCoordinates()">Envoyer</button>
+
+    </div>
+
+  </div>
+  </body>
+
+<!-- Résultat affiché -->
+<div *ngIf="result" class="result-card">
+  <p>Ville : {{ result.ville }}</p>
+  <p>Commune : {{ result.commune }}</p>
+  <p>Cité : {{ result.cite }}</p>
+  <p>Distance : {{ result.distanceKm }} km</p>
+</div>
+
+</body>
+</html>
