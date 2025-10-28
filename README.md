@@ -2,8 +2,8 @@
 
 Une application web complète permettant aux utilisateurs d’entrer leurs coordonnées géographiques et d’obtenir l’adresse de l’agence ou direction SGA la plus proche ainsi que ses informations détaillées (nom, code, disponibilité d’un guichet automatique).
 
-##  Backend (.NET)(c#)
-- Développement d’une **API RESTful** avec **.NET 8**
+##  Backend (.NET CORE)(c#)
+- Développement d’une **API ** avec **.NET CORE 8**
 - Création d’une **base de données locale** contenant les adresses, coordonnées et informations des agences
 - Mise en place d’une **authentification sécurisée via JWT (JSON Web Tokens)**
 - Tests et documentation de l’API avec **Swagger**
