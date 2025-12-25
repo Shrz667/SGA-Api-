@@ -1,19 +1,19 @@
-##  SGA Localisation
+## SGA Location
 
-Une application web complète permettant aux utilisateurs d’entrer leurs coordonnées géographiques et d’obtenir l’adresse de l’agence ou direction SGA la plus proche ainsi que ses informations détaillées (nom, code, disponibilité d’un guichet automatique).
+A comprehensive web application allowing users to enter their geographic coordinates and obtain the address of the nearest SGA branch or office, along with its detailed information (name, code, ATM availability).
 
-##  Backend (.NET CORE)(c#)
-- Développement d’une **API ** avec **.NET CORE 8**
-- Création d’une **base de données locale** contenant les adresses, coordonnées et informations des agences
-- Mise en place d’une **authentification sécurisée via JWT (JSON Web Tokens)**
-- Tests et documentation de l’API avec **Swagger**
+## Backend (.NET CORE)(c#)
+- Development of an **API** with **.NET CORE 8**
+- Creation of a **local database** containing agency addresses, contact information, and details
+- Implementation of **secure authentication via JWT (JSON Web Tokens)**
+- API testing and documentation with **Swagger**
 
-##  Frontend (Angular)(html)(ts)(css)
-- Interface utilisateur permettant de **saisir les coordonnées**
-- Communication avec l’API pour **récupérer et afficher l’adresse la plus proche**
-- Connexion complète **Frontend ↔ Backend**
+## Frontend (Angular)(html)(ts)(css)
+- User interface for **entering contact information**
+- Communication with the API to **retrieve and display the nearest address**
+- Full **Frontend ↔ Backend** connection
 
-##  Sécurité
-- Authentification et autorisation basées sur **JWT**
-- Protection des endpoints sensibles
-- Gestion sécurisée des échanges entre le client et le serveur
+## Security
+- Authentication and authorization based on **JWT**
+- Protection of sensitive endpoints
+- Secure management of client-server communication
